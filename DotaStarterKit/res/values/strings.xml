@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <string name="zb">装备</string>
+    <string name="app_name">Dota新手包</string>
+	<string name="jwl">近卫力量型英雄</string>
+	<string name="jwm">近卫敏捷型英雄</string>
+	<string name="jwz">近卫智力型英雄</string>
+	<string name="home_uri"/>
+	<string name="menu_about">About</string>
+	<string name="menu_quit">Quit</string>
+	<string name="quit_title">退出</string>
+	<string name="quit_msg">确定退出？</string>
+	<string name="ok_label">确认</string>
+	<string name="cancel_label">取消</string>
+</resources>

@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="100dp" >
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scaleType="fitXY"
+            android:src="@drawable/jwm_up" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scrollbars="vertical" >
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <com.UT.Dota.version1.MyButton  
+             android:id="@+id/btn_am"  
+             android:layout_height="wrap_content"  
+             android:layout_width="wrap_content"  
+             android:layout_alignParentBottom="true"  
+             android:clickable="true"  
+             android:focusable="true"  
+             /> 
+             <com.UT.Dota.version1.MyButton  
+             android:id="@+id/btn_sniper"  
+             android:layout_height="wrap_content"  
+             android:layout_width="wrap_content"  
+             android:layout_alignParentBottom="true"  
+             android:clickable="true"  
+             android:focusable="true"  
+             />
+             <com.UT.Dota.version1.MyButton  
+             android:id="@+id/btn_jugg"  
+             android:layout_height="wrap_content"  
+             android:layout_width="wrap_content"  
+             android:layout_alignParentBottom="true"  
+             android:clickable="true"  
+             android:focusable="true"  
+             />
+             <com.UT.Dota.version1.MyButton  
+             android:id="@+id/btn_ld"  
+             android:layout_height="wrap_content"  
+             android:layout_width="wrap_content"  
+             android:layout_alignParentBottom="true"  
+             android:clickable="true"  
+             android:focusable="true"  
+             /> 
+              <com.UT.Dota.version1.MyButton  
+             android:id="@+id/btn_luna"  
+             android:layout_height="wrap_content"  
+             android:layout_width="wrap_content"  
+             android:layout_alignParentBottom="true"  
+             android:clickable="true"  
+             android:focusable="true"  
+             /> 
+              <com.UT.Dota.version1.MyButton  
+             android:id="@+id/btn_mor"  
+             android:layout_height="wrap_content"  
+             android:layout_width="wrap_content"  
+             android:layout_alignParentBottom="true"  
+             android:clickable="true"  
+             android:focusable="true"  
+             /> 
+              <com.UT.Dota.version1.MyButton  
+             android:id="@+id/btn_naga"  
+             android:layout_height="wrap_content"  
+             android:layout_width="wrap_content"  
+             android:layout_alignParentBottom="true"  
+             android:clickable="true"  
+             android:focusable="true"  
+             /> 
+              <com.UT.Dota.version1.MyButton  
+             android:id="@+id/btn_lancer"  
+             android:layout_height="wrap_content"  
+             android:layout_width="wrap_content"  
+             android:layout_alignParentBottom="true"  
+             android:clickable="true"  
+             android:focusable="true"  
+             /> 
+              <com.UT.Dota.version1.MyButton  
+             android:id="@+id/btn_pom"  
+             android:layout_height="wrap_content"  
+             android:layout_width="wrap_content"  
+             android:layout_alignParentBottom="true"  
+             android:clickable="true"  
+             android:focusable="true"  
+             /> 
+              <com.UT.Dota.version1.MyButton  
+             android:id="@+id/btn_sa"  
+             android:layout_height="wrap_content"  
+             android:layout_width="wrap_content"  
+             android:layout_alignParentBottom="true"  
+             android:clickable="true"  
+             android:focusable="true"  
+             /> 
+              <com.UT.Dota.version1.MyButton  
+             android:id="@+id/btn_troll"  
+             android:layout_height="wrap_content"  
+             android:layout_width="wrap_content"  
+             android:layout_alignParentBottom="true"  
+             android:clickable="true"  
+             android:focusable="true"  
+             /> 
+             \  <com.UT.Dota.version1.MyButton  
+             android:id="@+id/btn_av"  
+             android:layout_height="wrap_content"  
+             android:layout_width="wrap_content"  
+             android:layout_alignParentBottom="true"  
+             android:clickable="true"  
+             android:focusable="true"  
+             /> 
+             
+               <com.UT.Dota.version1.MyButton  
+             android:id="@+id/btn_dr"  
+             android:layout_height="wrap_content"  
+             android:layout_width="wrap_content"  
+             android:layout_alignParentBottom="true"  
+             android:clickable="true"  
+             android:focusable="true"  
+             /> 
+             
+                 <com.UT.Dota.version1.MyButton  
+             android:id="@+id/btn_ta"  
+             android:layout_height="wrap_content"  
+             android:layout_width="wrap_content"  
+             android:layout_alignParentBottom="true"  
+             android:clickable="true"  
+             android:focusable="true"  
+             /> 
+               
+                <com.UT.Dota.version1.MyButton  
+             android:id="@+id/btn_ursa"  
+             android:layout_height="wrap_content"  
+             android:layout_width="wrap_content"  
+             android:layout_alignParentBottom="true"  
+             android:clickable="true"  
+             android:focusable="true"  
+             /> 
+                 
+                  <com.UT.Dota.version1.MyButton  
+             android:id="@+id/btn_vs"  
+             android:layout_height="wrap_content"  
+             android:layout_width="wrap_content"  
+             android:layout_alignParentBottom="true"  
+             android:clickable="true"  
+             android:focusable="true"  
+             /> 
+                 <com.UT.Dota.version1.MyButton  
+             android:id="@+id/btn_bh"  
+             android:layout_height="wrap_content"  
+             android:layout_width="wrap_content"  
+             android:layout_alignParentBottom="true"  
+             android:clickable="true"  
+             android:focusable="true"  
+             /> 
+                
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

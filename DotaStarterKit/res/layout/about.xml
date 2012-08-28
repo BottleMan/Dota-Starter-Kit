@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/tilebg"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <!-- <TextView -->
+            <!-- android:layout_width="wrap_content" -->
+            <!-- android:layout_height="wrap_content" -->
+            <!-- android:layout_marginLeft="100dp" -->
+            <!-- android:layout_marginTop="20dp" -->
+            <!-- android:text="About" -->
+            <!-- android:textColor="#FFFFFF" -->
+            <!-- android:textSize="40dp" /> -->
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_height="150dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/about_head" />
+
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="关于本软件："
+                android:textColor="#FFFFFF"
+                android:textSize="25dp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="5dp"
+                android:text="    Dota Starter Kit是一个面向dota新手开发的展示类应用。"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="5dp"
+                android:text="    此次版本是对前一版本进行的一些小的改进，因为之前一直在忙期末考试什么的，很多东西没有加进来。这个版本的部分地方用到了游戏引擎，在以后更新的版本中会大量用到游戏引擎，这次只是发上来这个小改进版，希望大家继续支持。"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="5dp"
+                android:text="    感谢您的支持与鼓励。"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp" />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="200dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="5dp"
+                android:text="2012.8"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp" />
+            
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:text="制作团队："
+                android:textColor="#FFFFFF"
+                android:textSize="25dp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="5dp"
+                android:text="卓群部落—Unique Tribe"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:text="联系我们："
+                android:textColor="#FFFFFF"
+                android:textSize="25dp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="5dp"
+                android:autoLink="email"
+                android:text="unique_tribe@163.com"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp" />
+
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:text="特别感谢："
+                android:textColor="#FFFFFF"
+                android:textSize="25dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:text="Mr.Lee"
+                android:textColor="#FFFFFF"
+                android:textSize="25dp" />
+
+            <ImageView
+                android:layout_width="240dp"
+                android:layout_height="66dp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginBottom="20dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/logo" />
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- 关于我们，关于本程序 -->
+
+</LinearLayout>

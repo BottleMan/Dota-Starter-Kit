@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/tilebg"
+    android:orientation="vertical" >
+
+    <!-- 英雄界面 -->
+
+    <ImageButton
+        android:id="@+id/button4"
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/jwjt" />
+
+    <ImageButton
+        android:id="@+id/button5"
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="140dp"
+        android:background="@drawable/tzjt" />
+
+</LinearLayout>

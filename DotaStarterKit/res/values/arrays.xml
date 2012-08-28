@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="hero1">
+        <item >R.drawable.aa</item>
+        <item >斧王</item>
+        <item >sk_initial_quality</item>
+    </string-array>
+    
+</resources>
